@@ -86,7 +86,7 @@ function sendOrderToWhatsApp(event) {
     const message = `Hello, I would like to place an order:%0A%0A*Name*: ${name}%0A*Email*: ${email}%0A*Shipping Address*: ${address}%0A*Phone Number*: ${phone}%0A*Product*: ${product}%0A*Quantity*: ${quantity}%0A*Payment Method*: ${paymentMethod}`;
 
     // Ganti dengan nomor WhatsApp tujuan Anda (format internasional tanpa tanda +, contoh: 6281234567890)
-    const phoneNumber = '+6281322789164';
+    const phoneNumber = '6281322789164';
 
     // URL WhatsApp API
     const url = `https://wa.me/${phoneNumber}?text=${message}`;
