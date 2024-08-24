@@ -1,0 +1,214 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ee0000;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.product-promo {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-promo h1 {
+    font-size: 24px;
+    color: #2c3e50;
+    text-align: center;
+}
+
+.product-image {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.product-image img {
+    max-width: 30%;
+    height: auto;
+    border-radius: 8px;
+    align-content: first baseline;
+}
+
+.product-info {
+    margin-top: 20px;
+}
+
+.product-info p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.product-info h2 {
+    font-size: 20px;
+    color: #e74c3c;
+    margin-top: 20px;
+}
+
+.product-info ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.product-info ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer-section {
+    flex: 1 1 250px;
+    margin: 10px;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    color: #fff;
+}
+
+.footer-section p, .footer-section ul, .footer-section li {
+    font-size: 14px;
+    color: #ccc;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-section ul {
+    padding-top: 10px;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer-section form {
+    margin-top: 10px;
+}
+
+.footer-section form input[type="email"] {
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.footer-section form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #ccc;
+}
+
+.footer-bottom a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}
+
+/* Styling untuk Formulir Pemesanan */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #bb0000;
+    margin: 0;
+    padding: 0;
+}
+
+.order-form-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.order-form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group input[type="number"],
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+.img-pesan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
