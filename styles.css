@@ -204,11 +204,7 @@ body {
     background-color: #0056b3;
 }
 
-.img-pesan {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+.img-diki {
+    background-color: #0056b3;
+    border: #bb0000;
 }
-
-
