@@ -22,17 +22,65 @@
     width: 232px;
 
 }
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.discount-banner {
+    background-image: url(''); /* ganti dengan URL atau path gambar diskon */
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.discount-text {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.discount-text h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.discount-text p {
+    font-size: 24px;
+    margin: 10px 0 0 0;
+}
+
 </style>
 
 <div class="img-content">
 <a href="order.html">
-    <img src="images/Pesan.jpg" class="img-pesan" alt="">
+    <img src="images/Pesan.png" class="img-pesan" alt="">
  </a>
 </div>
 <br/>
+
+<body>
+    <div class="discount-banner">
+        <div class="discount-text">
+            <h1>Diskon 50%</h1>
+            <p>Hanya Rp.299,000</p>
+            <p>GRATIS ONGKIR 100%</p>
+        </div>
+    </div>
+</body>
+</html>
+ <br/>
 <!-- Gambar Pesan -->
 <div class="product-promo container-fluid">
-    <h1>Alat Cuci Motor Mobil Jet Cleaner High Pressure Water Gun - QH-10</h1>
+    <h1>Cuci Motor Mobil Jet Cleaner High Pressure Water Gun - QH-10</h1>
     
     <div class="product-image">
         <img src="images/4.jpg" alt="">
@@ -139,7 +187,6 @@ Kecepatan Pompa: 3 Liter per Menit</li>
             <select id="payment-method" name="payment-method" required>
                 <option value="" disabled selected>Pilih metode Pembayaran</option>
                 <option value="bank-transfer">Bank Transfer</option>
-                <option value="cash-on-delivery">Cash on Delivery</option>
             </select>
         </div>
 
